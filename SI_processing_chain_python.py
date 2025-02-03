@@ -36,6 +36,9 @@ Main time_to_ts() function steps:
 Caveats:
     Script must be run in same folder as data (input files can be in nested folders, but specify when calling).
     Elevation and SLA files must be textfiles.
+    Ensure all necessary output folders are created before running.
+    Ensure ocean_fraction_data file reflects hemisphere being examined.
+    Change all file and folder names/paths as appropriate for a given project.
 """
 
 # ===============================================================================================
